@@ -3,11 +3,67 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+	background-color: #f5f5f5;
+}
+		.header{
+			text-align: center;
+			padding:10px 0;
+			background-color:#011e29;
+			margin-bottom:20px;
+		}
+		.container{
+			display:flex;
+			justify-content:center;
+			gap:20px;
+			padding:0 20px;
+		}
+		.latest-news-section{
+				padding:20px;
+			width:30%;
+			 background-color:#f5f5f5;
+		}
+		.main-artical {
+			width:60%;
+			padding:20px;
+		}
+		.pictorial-news-section{
+			padding:20px;
+            width:30%;
+            background-color:#f5f5f5;
+            text-align:center;
+		}
+		.pictorial-news-section img {
+			width:100%;
+		}
+	</style>
 </head>
 
-<body>
-	<!-- the entire body must be written by student -->
+<body> 
+	<header class="header">
+		<h1>Shaw's News</h1>
+	</header>
+	<div class="container">
+		<div class="latest-news-section">
+			<h2>Latest-News-Section</h2>
+		<ul>
+			<li>Article 1</li>
+			<li>Article 2</li>
+			<li>Article 3</li>
+		</ul>
+	</div>
+		<div class="main-artical">
+			<h2>Main Artical</h2>
+			<p>This is a main article</p>
+		</div>
+		<div class="pictorial-news-section">
+			<h3>pictorial-news-section</h3>
+			<img src="https://storage.googleapis.com/acciojob-open-file-collections/news-webpage.png">
+			<img src="https://storage.googleapis.com/acciojob-open-file-collections/news-webpage.png">
+			<img src="https://storage.googleapis.com/acciojob-open-file-collections/news-webpage.png">
+		</div>
+	</div><!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
